@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+
+    <audio src="./Clock-Ticking-C-www.fesliyanstudios.com.mp3" id="tick-tock" style="display: none;" controls ></audio>
+    <div class="conteinerr">
+      <div class="timer">
+        <div class="counters">
+          <div class="count  sub_timer" >
+            <button id="plusHour">+</button>
+            <h1 id="hour"  >00</h1>
+           
+            <button id="minusHour">-</button>
+          </div> <span>:</span>
+          <div class="count  sub_timer"  >
+            <button id="plusMinut">+</button>
+            <h1 id="minut">00</h1>
+            <button id="minusMinut">-</button>
+          </div> <span>:</span>
+          <div class="count  sub_timer"   >
+            <button id="plusSecond">+</button>
+            <h1 id="second">00</h1>
+            <button id="minusSecond">-</button>
+          </div>
+        </div>
+        <div class="btns">
+         
+        </div>
+        < <div class="mm">
+             <button class="btnssr" id="start" 
+            style=" font-size: 24px;
+               margin-top: 70px;
+               margin-left: 12px;" type="button">
+               <strong  style="font-size: 23px;">Start</strong>
+               <div id="container-stars">
+                 <div id="stars"></div>
+               </div>
+             
+               <div id="glow">
+                 <div class="circle"></div>
+                 <div class="circle"></div>
+               </div>
+             </button> 
+          <button class="btnssr" id="stop" 
+             style=" font-size: 24px;
+                margin-top: 70px;" type="button">
+                <strong  style="font-size: 23px;">Stop</strong>
+                <div id="container-stars">
+                  <div id="stars"></div>
+                </div>
+              
+                <div id="glow">
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                </div>
+              </button> 
+              <button class="btnssr" id="clear" 
+              style=" font-size: 24px;
+                 margin-top: 70px;" type="button">
+                 <strong  style="font-size: 23px;">Clear</strong>
+                 <div id="container-stars">
+                   <div id="stars"></div>
+                 </div>
+               
+                 <div id="glow">
+                   <div class="circle"></div>
+                   <div class="circle"></div>
+                 </div>
+               </button>
+   
+        </div> 
+        
+
+        <audio id="tick-tock" src="./Clock-Ticking-C-www.fesliyanstudios.com.mp3" preload="auto"></audio>
+      </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+
+
+
+
+
+</body>
+</html>
